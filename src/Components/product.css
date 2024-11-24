@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.product-holder-div{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+.clicked {
+    background-color: white;
+    color: #0c8542;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.add-to-bag-btn{
+    color: #0c8542;
+    background-color: white;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #0c8542;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+
+}
+
+.add-to-bag-btn:hover{
+    background-color: #0c8542;
+    color: white;
+}
+.inc,.dec{
+    width: 20%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.clicked:hover{
+    background-color: white;
+    color: #0c8542;
+}
+.qty{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0c8542;
+}

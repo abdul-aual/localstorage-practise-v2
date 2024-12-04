@@ -58,6 +58,7 @@ const Products = () => {
   // Increment quantity
   const inc = (id) => {
     const selectedProduct = products.find(product => product.id === id);
+
     setProducts(products.map(product =>
       product.id === id
         ? { ...product, qty: product.qty + 1 }
